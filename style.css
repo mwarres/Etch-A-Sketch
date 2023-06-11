@@ -10,3 +10,7 @@ div {
     display: flex;
     flex-direction: column;
 }
+
+.color {
+    background-color: pink;
+}
