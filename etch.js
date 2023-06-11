@@ -4,6 +4,10 @@ function generateGrid() {
         const row = document.createElement("div");
         for (let j = 0; j < 16; j++) {
             const div = document.createElement("div");
+            div.addEventListener("mouseover", event => {
+                div.classList.add("color");
+            })
+            div.textContent = "sketch!";
             row.appendChild(div);
         }
         container.appendChild(row);
