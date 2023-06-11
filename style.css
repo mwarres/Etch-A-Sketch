@@ -1,6 +1,4 @@
 div {
-    background-color: white;
-    border-color: black;
     display: flex;
     justify-content: space-between;
     border-style: solid;
