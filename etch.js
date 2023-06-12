@@ -1,4 +1,5 @@
 function generateGrid(dimension) {
+    if (dimension > 100 || dimension < 1) dimension = 16; // make default 16
     const container = document.querySelector(".container");
     for (let i = 0; i < dimension; i++) {
         const row = document.createElement("div");
