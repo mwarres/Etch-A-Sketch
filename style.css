@@ -1,7 +1,8 @@
 div {
     display: flex;
-    justify-content: space-between;
-    border-style: solid;
+    justify-content: center;
+    min-height: 20px;
+    min-width: 20px;
 }
 
 .container {
