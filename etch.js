@@ -7,7 +7,6 @@ function generateGrid(dimension) {
             div.addEventListener("mouseover", event => {
                 div.classList.add("color");
             })
-            div.textContent = "sketch!";
             row.appendChild(div);
         }
         container.appendChild(row);
